@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Semester Marksheet</title>
+</head>
+<body><div class="section">
+    <div class="top">
+    <h5>Sr.no <span style="color: red;">00000000</span></h5>
+        <img src="logho.jpeg" alt="logo" width="100px" height="100px">
+        <img src="qrcode.png" alt="qr" style="width: 100px;" height="100px">
+    </div>
+    
+    <div class="marksheet">
+        <h1>HINDUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+        <h3>An Autonomous Insitution</h3>
+        <h2>Annual Statement of Marks</h2>
+    </div>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Name of the Candidate: Aadharshinee J</th>
+                <th colspan="4">INFORMATION TECHNOLOGY</th>
+            </tr>
+            <tr>
+                <th colspan="2">Reg. No. 720721110057</th>
+                <th colspan="2">Enrollment No. 720721110057</th>
+                <th colspan="4">HICET</th>
+            </tr>
+            <tr>
+                <th colspan="8"> HINDUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY</th>
+            </tr>
+            <tr>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+                <th>Max. Marks</th>
+                <th>Theory</th>
+                <th>Practical</th>
+                <th>Total</th>
+                <th>Total in Words</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>21IT5201</td>
+                <td>Mobile Computing</td>
+                <td>100</td>
+                <td><input type="number" id="theory1" oninput="calculateTotal(1)"></td>
+                <td><input type="number" id="practical1" oninput="calculateTotal(1)"></td>
+                <td><span id="total1">00</span></td>
+                <td><span id="totalWords1">Zero Zero</span></td>
+            </tr>
+            <tr>
+                <td>21IT5202</td>
+                <td>Computer Networks</td>
+                <td>100</td>
+                <td><input type="number" id="theory2" oninput="calculateTotal(2)"></td>
+                <td><input type="number" id="practical2" oninput="calculateTotal(2)"></td>
+                <td><span id="total2">00</span></td>
+                <td><span id="totalWords2">Zero Zero</span></td>
+            </tr>
+            <tr>
+                <td>21IT5203</td>
+                <td>Embedded Systems</td>
+                <td>100</td>
+                <td><input type="number" id="theory3" oninput="calculateTotal(3)"></td>
+                <td><input type="number" id="practical3" oninput="calculateTotal(3)"></td>
+                <td><span id="total3">00</span></td>
+                <td><span id="totalWords3">Zero Zero</span></td>
+            </tr>
+            <tr>
+                <td>21IT5204</td>
+                <td>AIML</td>
+                <td>100</td>
+                <td><input type="number" id="theory4" oninput="calculateTotal(4)"></td>
+                <td><input type="number" id="practical4" oninput="calculateTotal(4)"></td>
+                <td><span id="total4">00</span></td>
+                <td><span id="totalWords4">Zero Zero</span></td>
+            </tr>
+            <tr>
+                <td>21IT5205</td>
+                <td>Design Thinking</td>
+                <td>100</td>
+                <td><input type="number" id="theory5" oninput="calculateTotal(5)"></td>
+                <td><input type="number" id="practical5" oninput="calculateTotal(5)"></td>
+                <td><span id="total5">00</span></td>
+                <td><span id="totalWords5">Zero Zero</span></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Grand Total</td>
+                
+                <td colspan="3" id="grandTotal">00</td>
+                <td id="grandTotalWords">Zero Hundred Zero Zero</td>
+            </tr>
+            <tr>
+                <th colspan="2">MONTH AND YEAR OF EXAMINATION</th>
+                <TH colspan="2">NUMBER OF SUBJECTS OFFERED</TH>
+                <th>RESULT</th>
+                <th>PERCENTAGE</th>
+                <th>GRADE</th>
+            </tr>
+            <tr>
+                <td colspan="2">NOV-2023</td>
+                <td colspan="2">T5</td>
+                <td id="result">PASS</td>
+                <td id="percentage">00.00%</td>
+                <td id="grade">grade</td>
+            </tr>
+        </tfoot>
+    </table><br><br><br><br>
+    <strong>DATE:</strong> 24.01.24<span class="deputy"><strong>Deputy controller of Examination</strong></span>
+   <script src="script.js"></script>
+    </div>
+</body>
+</html>

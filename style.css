@@ -1,0 +1,53 @@
+body {
+    background-color: pink;
+}
+.section {
+    border: 5px solid black;
+    margin: 0px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top h5 {
+    margin: 0;
+}
+
+.marksheet {
+    text-align: center;
+    margin-bottom: 0px;
+   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+
+tfoot tr {
+    font-weight: bold;
+}
+
+
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+}
+
+#grandTotalWords, #totalWords1, #totalWords2, #totalWords3, #totalWords4, #totalWords5 {
+    text-align: center;
+}
+.deputy{
+    padding-left: 900px;
+}
